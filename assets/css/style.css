@@ -1,0 +1,325 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border:0 px;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+#barra_nav {
+    color: #FFFFFF;
+    background-color: #373A3C;
+}
+
+#rayita1 {
+    display: none
+}
+
+#marca1 {
+    font-family: 'Lobster', sans-serif;
+    font-size: 37pt;
+}
+
+.nav-item a {
+    color: #FFFFFF;
+    font-size: 16pt;
+}
+
+#plato_seleccion {
+    padding-bottom: 15pt;
+}
+
+#plato_seleccion img {
+    width: 482pt;
+}
+
+#plato_seleccion h1, p, button.btn {
+    color: #373A3C;
+}
+
+#plato_seleccion h1 {
+    font-size: 40pt;
+    font-weight: bold;
+}
+
+#plato_seleccion p {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#plato_seleccion button.btn {
+    border-color: #DDDDDD;
+    border-style: solid;
+    font-size: 16pt;
+    margin: 10pt;
+}
+
+.custom-tooltip .tooltip-inner {
+    max-width: none;
+    width: max-content;
+    padding-left: 18pt;
+    padding-right: 18pt;
+    background-color: #373A3C;
+    font-size: 12pt
+}
+
+#carrusel_imagenes {
+    margin-bottom: 15pt;
+}
+
+#carrusel img {
+    width: 233pt;
+}
+
+#receta {
+    padding-top: 15pt;
+}
+
+#receta h2 {
+    text-decoration: underline;
+}
+
+#receta p {
+    padding-right: 20pt;
+}
+
+#receta h2, p {
+    font-size: 20pt;
+    margin-bottom: 30pt;
+}
+
+#receta h2, p {
+    color: #373A3C;
+}
+
+#recetas_relacionadas h1 {
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 40pt;
+    font-weight: bold;
+    margin-bottom: 40pt;
+}
+
+#recetas_relacionadas h2 {
+    font-size: 23pt;
+    font-weight: bold;
+}
+
+#recetas_relacionadas p {
+    font-size: 16pt;
+}
+
+.card-body {
+    padding-top: 20pt;
+    padding-left: 22pt;
+    padding-right: 22pt;
+    padding-bottom: 28pt;
+}
+
+#card1 h2 {
+    margin-bottom: 18pt;
+}
+
+#card2 h2, #card3 h2 {
+    margin-bottom: 22pt;
+}
+
+#contenido_suscripcion {
+    color: white;
+    background-color: #DC3545;
+}
+
+#contenido_suscripcion {
+    margin-top: 40pt;
+    padding-top: 150pt;
+    padding-bottom: 207pt;
+}
+
+#contenido_suscripcion h1 {
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 40pt;
+}
+
+#contenido_suscripcion p {
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-weight: lighter;
+    font-size: 30pt;
+}
+
+#contenido_suscripcion #marca {
+    font-family: 'Lobster', sans-serif;
+}
+
+#contenido_suscripcion button.btn {
+    color: white;
+    border-color: #DDDDDD;
+    border-style: solid;
+    font-size: 16pt;
+    padding-left: 70pt;
+    padding-right: 70pt;
+}
+
+#pie {
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    height: 100pt;
+    background-color: #373A3C;
+}
+
+#pie {
+    background-color: #373A3C;
+    padding-top: 25pt;
+    height: 120pt;
+}
+
+#pie h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+    font-size: 37pt;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    #marca1 {
+        font-family: 'Lobster', sans-serif;
+        font-size: 37pt;
+    }
+
+    .nav-item a {
+        color: #FFFFFF;
+        font-size: 12pt;
+    }
+
+    #rayita1 {
+        display: block;
+    }
+
+    #plato_seleccion {
+        text-align: center;
+    }
+
+    #plato_seleccion img {
+        width: 210pt;
+    }
+
+    #plato_seleccion h1, p, button.btn {
+        color: #373A3C;
+    }
+
+    #plato_seleccion h1 {
+        font-size: 22pt;
+        font-weight: bold;
+        margin-top: -20pt;
+    }
+
+    hr {
+        margin-top: -20pt;
+    }
+
+    #plato_seleccion p {
+        font-size: 14pt;
+        font-weight: bold;
+    }
+
+    #plato_seleccion button.btn {
+        font-size: 10pt;
+        margin: 5pt;
+    }
+
+    .custom-tooltip .tooltip-inner {
+        max-width: none;
+        width: max-content;
+        padding-left: 18pt;
+        padding-right: 18pt;
+        background-color: #373A3C;
+        font-size: 9pt
+    }
+
+    #carrusel_imagenes {
+        display: none;
+    }
+
+    #rayita2 {
+        display: none;
+    }
+
+    #receta {
+        padding-left: 20pt;
+        padding-right: 20pt;
+    } 
+
+    #receta h2 {
+        text-decoration: none;
+    }
+
+    #receta.container h2 {
+        font-size: 14pt;
+    }
+
+    #receta.container p {
+        font-size: 12pt;
+    }
+
+    .card-body {
+        padding-left: 12pt;
+        padding-right: 12pt;
+        padding-bottom: 25pt;
+    }
+
+    #recetas_relacionadas {
+        padding-left: 10pt;
+        padding-right: 10pt;
+    }
+
+    #recetas_relacionadas h1 {
+        font-size: 22pt;
+        font-weight: bold;
+    }
+
+    #recetas_relacionadas h2 {
+        font-size: 15pt;
+        font-weight: bold;
+    }
+    
+    #recetas_relacionadas p {
+        font-size: 12pt;
+    }
+
+    #contenido_suscripcion {
+        padding-top: 95pt;
+        padding-left: 28pt;
+        padding-right: 28pt;
+        padding-bottom: 75pt;
+    }
+
+    #contenido_suscripcion h1 {
+        font-size: 25pt;
+    }
+
+    #contenido_suscripcion p {
+        font-size: 16pt;
+    }
+
+    #contenido_suscripcion button.btn {
+        color: white;
+        border-color: #DDDDDD;
+        border-style: solid;
+        font-size: 12pt;
+        padding-left: 62pt;
+        padding-right: 62pt;
+    }
+
+    #pie {
+        height: 91pt;
+    }
+
+    #pie h1 {
+        font-size: 28pt;
+    }
+}
